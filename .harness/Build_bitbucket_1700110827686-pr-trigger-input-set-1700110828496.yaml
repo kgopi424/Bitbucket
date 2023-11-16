@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bitbucket_1700110827686-pr-trigger-input-set
+  identifier: Build_bitbucket_1700110827686prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_bitbucket_1700110827686
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
