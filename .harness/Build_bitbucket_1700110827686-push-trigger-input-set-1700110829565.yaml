@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bitbucket_1700110827686-push-trigger-input-set
+  identifier: Build_bitbucket_1700110827686pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_bitbucket_1700110827686
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
